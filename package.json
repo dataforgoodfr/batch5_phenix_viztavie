@@ -1,0 +1,10 @@
+{
+  "name": "viztavie",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prepare": "cd ./server && yarn install && cd ./../client && yarn install && cd ./.. && npm run serve",
+    "serve": "cd ./client && npm run serve & node ./server",
+    "build": "cd ./client && npm run build"
+  }
+}
