@@ -1,8 +1,6 @@
 import { Module, VuexModule, Mutation, Action } from 'vuex-module-decorators'
 import { GeoLayer } from '../../@types/GeoLayer'
-import { Emmitter } from '../../@types/Emmitter'
-import { Receiver } from '../../@types/Receiver'
-import L, { Bounds, geoJSON } from 'leaflet'
+import { Bounds, geoJSON } from 'leaflet'
 import { GeoJsonProperties } from 'geojson'
 
 const context = require.context('@/assets/', true, /\.geojson\.json$/)
