@@ -4,7 +4,7 @@ cloudpickle==0.6.1
 dask==1.0.0
 idna==2.8
 locket==0.2.0
-numpy==1.15.4
+numpy==1.22.0
 git+https://github.com/openfoodfacts/openfoodfacts-python
 pandas==0.23.4
 partd==0.3.9
